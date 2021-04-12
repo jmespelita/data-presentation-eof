@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+        Projection by TEMPLATED
+        templated.co @templatedco
+        Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+    <head>
+        <title>Economy of Francesco</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/waitMe.css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/util.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/papaparse.js"></script>
+        <script src="js/highcharts.js"></script>
+        <script src="js/exporting.js"></script>
+        <script src="js/export-data.js"></script>
+        <script src="js/waitMe.js"></script>
+        <script src="js/eof.js"></script>
+    </head>
+    <body class="subpage">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <a href="index.html" class="logo"><strong>Economy of Francesco</strong> Statistics</a>
+                <!--                <nav id="nav">
+                                    <a href="index.html">Home</a>
+                                    <a href="generic.html">Generic</a>
+                                    <a href="elements.html">Elements</a>-->
+                <!--</nav>-->
+                <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+            </div>
+        </header>
+
+        <!-- Three -->
+        <section id="three" class="wrapper">
+            <div class="inner">
+                <!--                <header class="align-center">
+                                    <h2>Economy of Francesco</h2>
+                                    <p>Data Analysis on participants</p>
+                                </header>-->
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="files">Upload a CSV formatted file:</label>
+                        <input type="file" id="files"  class="form-control" accept=".csv" required />
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                        <button type="submit" id="submit-file" class="btn btn-primary">Upload File</button>
+                    </div>
+                </form>
+                <div class="clear">
+                    <div id="continent_vs_cat" style="width:100%; height:600px;margin-top: 100px;float:left"></div>
+                    <div id="gender_vs_cat" style="width:100%; height:400px;margin-top: 100px;float:left"></div>
+                    <div id="selection_vs_cat" style="width:100%; height:400px;margin-top: 100px;float:left"></div>
+                    <div id="age_vs_cat" style="width:100%; height:400px;margin-top: 100px;right"></div>
+                    <div id="parsed_csv_list">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+
+                <h3>Get in touch</h3>
+
+                <form action="#" method="post">
+
+                    <div class="field half first">
+                        <label for="name">Name</label>
+                        <input name="name" id="name" type="text" placeholder="Name">
+                    </div>
+                    <div class="field half">
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                    </div>
+                    <ul class="actions">
+                        <li><input value="Send Message" class="button alt" type="submit"></li>
+                    </ul>
+                </form>
+
+                <div class="copyright">
+                    &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+                </div>
+
+            </div>
+        </footer>
+
+
+    </body>
+</html>
